@@ -46,3 +46,33 @@ knitr::kable(head(cars),
 ## Insert an equation
 
 $$ Y = \beta_0 + \beta_1x$$
+
+## Insert an image
+
+![sunstar](figure/sunstar.png)
+
+![r logo](https://www.r-project.org/logo/Rlogo.svg)
+
+## Insert an Animated GIF and Video
+
+![sunstar](figure/sunstar.gif)
+
+![sunstar](figure/sunstar.mp4)
+
+
+
+## Insert footnote
+
+
+
+Here is footnote [^1] and another [^long]  
+
+Here is footnote ^[inline].  
+
+[^1]: Here is the footnote
+[^long]: His isisis
+
+
+
+
+
