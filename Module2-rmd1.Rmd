@@ -30,8 +30,19 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
+```{r pressure, echo=FALSE, paged.print=TRUE}
 plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Insert table
+
+```{r}
+knitr::kable(head(cars),
+             caption = "Top 6")
+```
+
+## Insert an equation
+
+$$ Y = \beta_0 + \beta_1x$$
